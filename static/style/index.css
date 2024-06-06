@@ -78,13 +78,13 @@
 }
 
 #about {
-    padding-top: 20px;
+    
     margin-bottom: 100px;
 }
 
 /* spacing on all sections */
 #about, #services, #portfolio, #contact {
-    margin-top: 4rem;
+    margin-top: 2rem;
     padding-top: 4rem;
 }
 
