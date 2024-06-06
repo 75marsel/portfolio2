@@ -56,11 +56,10 @@
 }
 /* text css above hero image*/
 .hero_title {
-    font-size: 4.5rem;
-  
+    font-size: 2rem;
 }
 .hero_desc {
-    font-size: 2rem;
+    font-size: 1rem;
 }
 .hero-text {
     text-align: center;
@@ -133,7 +132,7 @@ footer {
 section {
     overflow-y: auto;
     scroll-snap-type: y mandatory;
-  
+    padding-top: -4rem;
 }
 
 #profile{
