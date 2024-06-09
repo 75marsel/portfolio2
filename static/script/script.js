@@ -12,11 +12,18 @@ bootstrapScript.crossOrigin = "anonymous";
 document.head.appendChild(bootstrapScript);
 
 
+
+document.addEventListener("DOMContentLoaded", function() {
 window.addEventListener('scroll', function() {
     var navbar = document.getElementById('navbar');
-    if (window.scrollY > 50) { // You can adjust the scroll position value as needed
+    var scrollingText = document.getElementById('scrolling-text');
+    
+    if (window.scrollY > 100) { // You can adjust the scroll position value as needed
         navbar.classList.add('scrolled');
+        //scrollingText.style.display = 'block';
     } else {
         navbar.classList.remove('scrolled');
+        //scrollingText.style.display = 'none';
     }
+});
 });
